@@ -1,0 +1,60 @@
+# Environments
+venv/
+env/
+.env
+.agent
+.agents/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data
+# We want to keep the initial dataset and our trained models for Streamlit deployment
+# *.pkl
+# *.joblib
+# *.h5
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.synctex.gz
+# Ignore pdfs if needed, but sometimes it's good to commit final reports
+# We will not ignore pdfs for now
+
+# Mac/Windows
+.DS_Store
+Thumbs.db
